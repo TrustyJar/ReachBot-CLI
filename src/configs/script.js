@@ -26,13 +26,13 @@ async function login(page){
 
 console.log('Successfully Logged In'.cyan);
 
-async function shipping(page, browser){
+async function execute(page, browser){
     await page.waitFor(1000);
     await page.waitForSelector("button[data-locid='24']");
-    await page.click("button[data-locid='24']", elem => elem.click());
+    await page.click("button[data-locid='24']", elem => elem.click(), {clickCount: 2});
     await page.waitFor(1000);
-    console.log('Generating Cookie');
-    await page.click("button[data-locid='24']", elem => elem.click());
+    console.log('Clicking SISO Button'.yellow);
+    await page.click("button[data-locid='24']", elem => elem.click(), {clickCount: 2});
     await page.waitFor(1000);
     await browser.close()
 }
@@ -44,7 +44,7 @@ async function checkout(){
   try {
       var { page, browser} = await givePage();
       await login(page);
-      await shipping(page, browser);
+      await execute(page, browser);
   }
   catch(e) {
     error = e
