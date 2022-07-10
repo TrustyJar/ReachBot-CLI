@@ -9,7 +9,8 @@ Install NodeJS from - https://nodejs.org
 1. Install the code and unzip the file
 2. In the console:
 3. `$ npm install`
-4. Then run reachaio.sh file to start your program
+4. Open reachaio.sh, and edit dirname to your dirname. Dirname is the name of your pc.
+5. Then run reachaio.sh file to start your program
 
 ## Needed Items
 1. A Reach login, make sure to have a real, and not microsoft login set
