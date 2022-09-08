@@ -1,4 +1,4 @@
-<span style="length="1000px" width="1000px" ">THIS VERSION IS DEPRECATED, ALL UPDATES NOW GOING TO /ReachBot-GUI>
+<strong style="length="1000px" width="1000px" ">THIS VERSION IS DEPRECATED, ALL UPDATES NOW GOING TO /ReachBot-GUI>
 
 # ReachBo-CLI
 A bot which allows you to automate the dorm check in process for New England boarding schools. Just enter the reach domain in script.js, and
