@@ -1,6 +1,6 @@
-<strong style="length="1000px" width="1000px" ">THIS VERSION IS DEPRECATED, ALL UPDATES NOW GOING TO /ReachBot-GUI>
+# THIS VERSION IS DEPRECATED, ALL UPDATES NOW GOING TO /ReachBot-GUI
 
-# ReachBo-CLI
+## ReachBot-CLI
 A bot which allows you to automate the dorm check in process for New England boarding schools. Just enter the reach domain in script.js, and
 you are ready to have your check ins automated. make sure to have your login set.
 
